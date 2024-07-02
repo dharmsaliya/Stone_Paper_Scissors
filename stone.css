@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #1A2130;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #FDFFE2;
+    font-family: Vivaldi;
+}
+
+#outerbox{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 1000px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 200px;
+    border-radius: 50%;
+    border: 5px #83B4FF solid;
+}
+
+img:hover{
+    box-shadow: #5A72A0 5px 5px 5px;
+}
+
+img:active{
+    box-shadow: #5A72A0 5px 5px 5px 3px;
+    height: 190px;
+}
+
+#scissors:active{
+    width: 200px;
+}
+
+#scissors{
+    width: 210px;
+}
+
+#scoreboard{
+    margin-top: 50px;
+    display: flex;
+    height: 150px;
+    width: 800px;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#yourscore,#computerscore{
+    color: #FDFFE2;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#yourscore{
+    height: 100%;
+    width: 250px;
+}
+
+#computerscore{
+    height: 100%;
+    width: 250px;
+}
+
+.winorlose{
+    align-self: center;
+    color: #FDFFE2;
+    font-size: 50px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+#yourchoice,#computerchoice{
+    color: #FDFFE2;
+    font-size: x-large;
+}
+
+p{
+    margin-top: 10px;
+}
